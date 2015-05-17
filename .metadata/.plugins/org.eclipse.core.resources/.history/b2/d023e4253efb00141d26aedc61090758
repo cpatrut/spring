@@ -1,0 +1,7 @@
+package ro.catalin;
+
+public class Triangle {
+	private Point pointA;
+	private Point pointB;
+	private Point pointC;
+}

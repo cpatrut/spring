@@ -1,0 +1,28 @@
+package ro.catalin;
+
+import javax.annotation.Resource;
+
+public class Circle implements Shape{
+	@Resource(name="pointB")
+	private Point center;
+
+	public Point getCenter() {
+		return center;
+	}
+
+	public void setCenter(Point center) {
+		this.center = center;
+	}
+	public void draw(){
+		System.out.println("Circle Point is: ("+center.getX()+" " +center.getY()+")");
+	}
+	@PostConstruct
+	public void initializeCircle(){
+		System.out.println("Init of circle");
+	}
+	@PreDestroy
+	public void distroyCircle(){
+		System.out.println("Destroy of circle");
+	}
+	
+}

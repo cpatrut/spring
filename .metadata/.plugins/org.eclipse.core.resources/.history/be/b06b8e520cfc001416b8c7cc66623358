@@ -1,0 +1,7 @@
+package ro.catalin;
+
+import org.springframework.context.ApplicationListener;
+
+public class MyEventListener implements ApplicationListener{
+
+}

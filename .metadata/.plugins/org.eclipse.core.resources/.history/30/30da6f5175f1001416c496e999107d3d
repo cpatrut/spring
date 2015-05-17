@@ -1,0 +1,26 @@
+package org.catalin.test;
+
+import org.catalin.dto.UserDetails;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		UserDetails user=new UserDetails();
+		user.setUserId(123);
+		user.setUserName("231");
+		Configuration configuration = new AnnotationConfiguration().addPackage("models").addAnnotatedClass(MSISDN.class);
+		configuration.configure("hibernate.cfg.xml");
+		SessionFactory factory = configuration.buildSessionFactory();
+		Session session = factory.openSession();
+		Session session=sessionFactory.openSession();
+		session.beginTransaction();
+		session.save(user);
+		session.getTransaction().commit();
+	}
+
+}
