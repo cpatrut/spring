@@ -1,0 +1,12 @@
+package ro.catalin.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class LoggingAspect {
+	
+	@Before
+	public void LoggingAdvice() {
+		System.out.println("advice run. Get method called");
+	}
+}

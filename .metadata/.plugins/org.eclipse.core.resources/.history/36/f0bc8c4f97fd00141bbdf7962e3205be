@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Show /hide with js</title>
+<style>
+	.hidden{
+		display:none;
+	}
+</style>
+<script type="text/javascript">
+	function showHide(){
+		var check=document.getElementById("chk");
+		var hidden=document.getElementsByClassName("hidden");
+		
+			for(var i=0;i!=hidden.length;i++){
+				if(check.checked){
+			hidden[i].style.display="block";
+}
+}
+		}
+}
+
+</script>
+</head>
+<body>
+	<form action="#">
+		<input type="checkbox" name="checkbox" id="chk"/>
+		<label for="chk">click to show hide</label>	
+		<br/>
+		<label class="hidden">Name:</label>
+		<input type="text" name="name" class="hidden"/>
+		<br/>
+		<label class="hidden">Email</label>
+		<input type="text" name="email" class="hidden"/>
+
+	
+	</form>
+</body>
+</html>
