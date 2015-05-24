@@ -17,6 +17,7 @@ public class LoggingAspect {
 	// System.out.println("advice run. 11111 method called");
 	// }
 
+	@Around("allCircleMethdos()")
 	public Object myAroundAdvice(ProceedingJoinPoint proceedingJoinPoint) {
 		
 		Object returnValue=null;
@@ -32,6 +33,7 @@ public class LoggingAspect {
 		return returnValue;
 	}
 
+	@Pointcut("within(ro.catalin.model.Circle)")
 	public void allCircleMethdos() {
 
 	}

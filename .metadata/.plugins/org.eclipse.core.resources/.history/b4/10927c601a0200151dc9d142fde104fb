@@ -23,10 +23,8 @@
 
 <aop:config>
 	<aop:aspect id="loggingAspect" ref="loggingAspect">
-		<aop:pointcut id="allGetters"
-		 expression="within(ro.catalin.model.Circle)"/>
-	<aop:around method="myAroundAdvice" pointcut-ref="allGetters"/>
-	
+		<aop:pointcut id="allGetters" expression="within(ro.catalin.model.Circle)")
+		" id=""/>
 	</aop:aspect>
 </aop:config>
 </beans>
