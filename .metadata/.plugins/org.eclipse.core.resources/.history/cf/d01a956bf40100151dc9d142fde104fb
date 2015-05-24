@@ -1,0 +1,27 @@
+package ro.catalin.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class LoggingAspect {
+	
+//	@Before("execution(public String ro.catalin.model.Circle.getName() )")
+//	public void LoggingAdvice() {
+//		System.out.println("advice run. 11111 method called");
+//	}
+
+	
+	Before("allCircleMethdos()")
+	public void allGetters(){
+		System.out.println("advice run.Get method called");
+	}
+	@Pointcut("within(ro.catalin.model.Circle)")
+	public void allCircleMethdos(){
+		
+	}
+
+	
+	
+}
