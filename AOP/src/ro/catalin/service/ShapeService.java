@@ -8,6 +8,8 @@ public class ShapeService {
 	private Triangle triangle;
 	
 	public Circle getCircle() {
+		System.out.println("getter get a call");
+
 		return circle;
 	}
 	public void setCircle(Circle circle) {

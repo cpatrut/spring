@@ -26,7 +26,7 @@
 		<aop:pointcut id="allGetters"
 		 expression="within(ro.catalin.model.Circle)"/>
 	<aop:around method="myAroundAdvice" pointcut-ref="allGetters"/>
-	
-	</aop:aspect>
+<!--<aop:before method="" arg-names=""/>
+	  -->	</aop:aspect>
 </aop:config>
 </beans>

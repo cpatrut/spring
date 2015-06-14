@@ -35,5 +35,7 @@ public class LoggingAspect {
 	public void allCircleMethdos() {
 
 	}
-
-}
+	public void logginAdvice(){
+		System.out.println("loggin advice");
+	}
+	}

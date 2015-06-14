@@ -1,6 +1,0 @@
-package ro.catalin.service;
-
-public class ShapeService {
-	private Circle circle;
-	private Triangle triangle;
-}

@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div id="header">
+		<div id="menu">
+			<h2>jquery portofolio</h2>		
+		</div>
+	</div>
+	<div id="overlay">
+	</div>
+	<div id="frame">
+		<table>
+		<tr>
+			<td  id="left">
+				<img src="images/left.png" alt="left"/>			
+			
+		</td>	
+			<td id="right">
+				<img src="images/right.png" alt="right"/>						
+			</td>	
+		</tr></table>
+		<img id="main" src="" alt=""/>	
+	</div>
+	<div id="wrapper">
+		<ul id="portofolio">
+		<li><img id="1" src="images/1.jpg" alt="img">	</li>	
+		<li><img id="2"  src="images/2.jpg" alt="">	</li>	
+		<li><img id="3"  src="images/3.jpg" alt="">	</li>			
+		<li><img id="4"  src="images/4.jpg" alt="">	</li>	
+		<li><img id="5"  src="images/5.jpg" alt="">	</li>	
+		<li><img id="6"  src="images/6.jpg" alt="">	</li>	
+		<li><img id="7"  src="images/7.jpg" alt="">	</li>	
+		<li><img id="8"  src="images/8.jpg" alt="">	</li>	
+		</ul>
+	</div>
+</body>
+</html>

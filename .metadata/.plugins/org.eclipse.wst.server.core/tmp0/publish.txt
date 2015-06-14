@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Sun Jun 14 15:27:18 EEST 2015
+org.eclipse.jst.jee.server\:LoginMVC=/home/catalin/Desktop/apache-tomcat-8.0.22/wtpwebapps/LoginMVC
+org.eclipse.jst.jee.server\:sparta=/home/catalin/Desktop/apache-tomcat-8.0.22/wtpwebapps/sparta
+org.eclipse.jst.jee.server\:JavaServerPages1=/home/catalin/Desktop/apache-tomcat-8.0.22/wtpwebapps/JavaServerPages1

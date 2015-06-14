@@ -1,8 +1,0 @@
-package ro.catalin.aspect;
-
-@Aspect
-public class LoggingAspect {
-	public void LoggingAdvice() {
-		System.out.println("advice run. Get method called");
-	}
-}

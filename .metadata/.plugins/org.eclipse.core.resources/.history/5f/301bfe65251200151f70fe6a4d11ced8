@@ -1,0 +1,7 @@
+$(function(){
+	
+	$("#filter li").click(function(){
+		var=
+	});
+	
+});

@@ -1,5 +1,0 @@
-package ro.catalin.aspect;
-
-public class LoggingAspect {
-
-}

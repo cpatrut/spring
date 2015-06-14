@@ -1,0 +1,12 @@
+$(function(){
+	
+	$("#filter li").click(function(){
+		var category = $(this).html();
+		$("#portofolio li").fadeOut(1000);
+		$("#portofolio li").each(function(){
+			var test=$(this).html();
+			
+		});
+	});
+	
+});

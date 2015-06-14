@@ -1,0 +1,105 @@
+body{
+margin:0;
+padding:0;
+font-family: arial,sans-serif;
+}
+#menu {
+color:white;
+	width:1024px;
+
+
+	margin:0px auto;
+}
+h2{
+margin:0px;
+text-align:left;
+}
+	#header{
+	width:100%;
+	height:56px;
+	background-color: black;	
+	}
+	#wrapper{
+	width:1024px;
+	min-height: 500px;	
+	margin:0px auto;
+	}
+	#portofolio{
+	list-style-type: none;
+	padding-left: 0px;	
+	}
+	#portofolio li{
+		display:inline-block;
+		margin:10px 5px 10px 5px;
+	}
+	#portofolio li img{
+		width:250px;
+		height:200px;
+		cursor:pointer;
+	}
+	#overlay{
+		width:100%;
+		height:100%;
+		position:fixed;
+		background-color:black;
+		opacity: 0.7;
+		display:none;
+			top:0px;
+	}
+	#frame{
+	position:fixed;
+	display:none;
+	background-color:none;
+	width:540px;
+	height:386px;	
+	left:50%;
+	margin-left:-350px;
+	background-color:white;
+	padding-top:20px;
+	margin-left:-350px;;
+	margin-top:15px;
+	
+	}
+	#description p{
+		text-align:center;
+	}
+	#description{
+	background-color:white;
+	}
+	#frame table{
+	position:absolute;
+	width:503px;
+	margin-left:20px;	
+	}
+	#right{
+	float:right;	
+	}
+	#right img{
+	float:right;
+	}
+	#right,#left{
+	left: -0px;
+    position: relative;
+    top: 102px;
+    cursor:pointer;
+    }
+	#left{
+	left:-3px;}
+	#overlay{
+	cursor:pointer;
+	}
+	#left img{
+	opacity:0.5;
+	
+	}
+	#right img{
+	opacity:0.5;
+	}
+	#frame #main{
+	cursor:pointer;	
+	}
+	#frame #main{
+	width:500px;
+	margin-left:20px;
+	height: 331px;
+	}

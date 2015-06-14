@@ -1,0 +1,12 @@
+package name;
+
+import java.io.File;
+
+public class sadaa {
+	public static void main(String[] args){
+		File f=new File("test.jsp");
+		Syste.out.println("<B>"+f.getAbsolutePath()+"</b>");
+		
+		String html="<div><h1>this is test html</h1></div>";
+	}
+}

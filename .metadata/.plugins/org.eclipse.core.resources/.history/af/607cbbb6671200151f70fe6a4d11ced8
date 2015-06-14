@@ -1,0 +1,18 @@
+$(function(){
+	
+	$("#filter li").click(function(){
+		var category = $(this).html();
+		
+		$("#filter li").removeClass("active");
+		$(this).addClass("active");
+		
+		$("#portofolio li").fadeOut(1000);
+	var i=0;
+		$("#portofolio li").each(function(){
+			if($(this).hasClass(category)){
+				$(this).fadeIn(500);
+			}
+		});
+	});
+	
+});
