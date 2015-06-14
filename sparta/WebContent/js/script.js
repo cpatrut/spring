@@ -1,5 +1,30 @@
 $(function () {
 	var current_li;	
+	
+	$("#search").keyup(function(){
+		
+		
+		var current_query=$("#search").val();
+		
+		if(current_query!=""){
+			
+	
+		$("#portofolio li").hide(500);
+		$("#portofolio li").each(function(){
+			
+			var current_keyword=$(this).attr("data-keywrods");
+
+			if(current_keyword.indexOf(current_query)>=0){
+		
+				$(this).show();
+			}
+			
+		});
+	}else{
+		$("#portofolio li").show();
+	}
+	});
+	
 	$("#portofolio").sortable(
 	{
 		stop:function(){

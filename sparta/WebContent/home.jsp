@@ -22,7 +22,8 @@
 
 	<div id="header">
 		<div id="menu">
-			<h2>jquery portofolio</h2>		
+			<h2>jquery portofolio</h2>	
+			<input id="search" type="text" style="position:relative;left:20%;" placeholder="search..."/>	
 		</div>
 	</div>
 	<div id="overlay">

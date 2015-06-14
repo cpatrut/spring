@@ -106,6 +106,7 @@ text-align:left;
 	}
 	#filter li{
 		display:inline;
+		cursor:pointer;
 	}
 	#filter li.active{
 		font-weight:bold;
